@@ -1,0 +1,22 @@
+{
+  "name": "kurbakov_react",
+  "version": "1.0.0",
+  "description": "Yuriy Kurbakov's React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"hello": "echo hello",
+	"create": "mkdir build",
+	"remove": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebHeroSchool/kurbakov_react.git"
+  },
+  "author": "Yuriy Kurbakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebHeroSchool/kurbakov_react/issues"
+  },
+  "homepage": "https://github.com/WebHeroSchool/kurbakov_react#readme"
+}
