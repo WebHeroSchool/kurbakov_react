@@ -1,10 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-const someVar = 'some value';
-const someText = 'some text';
-const isReact = true;
+import { count, length } from './number';
 
 function App() {
   return (
@@ -22,13 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <h3 style={{fontSize: 50, color: 'red'}}>Title</h3>
-        <div>{someVar}</div>
-        <div>{123}</div>
-        <div>{2 ** 8}</div>
-        <div>{isReact && someText}</div>
-        <div>{isReact ? someVar : someText}</div>
-        <div>{isReact ? 'true' : 'false'}</div>
+        <p>Произведение: {count * length}</p>
       </header>
     </div>
   );
