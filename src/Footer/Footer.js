@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Footer = () => (
+const Footer = ({ count }) => (
   <div>
-    <p>Footer</p>
+    <p>Сегодня осталось выполнить дел: {count}</p>
   </div>
 );
 
