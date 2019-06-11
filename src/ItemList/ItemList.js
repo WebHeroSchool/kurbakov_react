@@ -3,9 +3,10 @@ import Item from '../Item/Item';
 
 const ItemList = ({ todoItems }) => (
   <ol>
-    <li><Item todo={todoItems.morning} /></li>
-    <li><Item todo={todoItems.day} /></li>
-    <li><Item todo={todoItems.evening} /></li>
+    {todoItems.map(item => 
+      <li key={item.id}>
+        <Item value={item.value} />
+      </li>)}
   </ol>
 );
 
