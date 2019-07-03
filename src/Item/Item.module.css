@@ -1,0 +1,8 @@
+.item {
+  font-size: 17px;
+}
+
+.done {
+  color: #f00;
+  text-decoration: line-through;
+}
