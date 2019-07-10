@@ -1,8 +1,15 @@
 import React from 'react';
+import TextField from '@material-ui/core/TextField';
 
 const InputItem = () => (
   <div>
-    <input type="text" placeholder="What needs to be done?" size="32" />
+    <TextField
+      id="outlined-with-placeholder"
+      label="Что нужно сделать"
+      placeholder="Напишите дело"
+      margin="normal"
+      variant="outlined"
+    />
   </div>
 );
 
