@@ -6,9 +6,9 @@ import styles from './App.module.css';
 
 const App = () => {
   const todoItems = [
-    { id: 0, value: 'Сделать зарядку' },
-    { id: 1, value: 'Сходить за продуктами' },
-    { id: 2, value: 'Потренироваться в спорт-зале' }
+    { id: 0, value: 'Сделать зарядку', isDone: true },
+    { id: 1, value: 'Сходить за продуктами', isDone: false },
+    { id: 2, value: 'Потренироваться в спорт-зале', isDone: true }
   ];
 
   return (
